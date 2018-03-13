@@ -1,0 +1,179 @@
+<html>
+<head>
+	   <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/userprofile.css">
+	<title>Users Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse" role="navigation">        
+                <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" rel="home" href="index.html" title="Buy Sell Rent Everyting">
+                    <img style="max-width:100px;" src="img/logoo-01.png">
+            </a>
+        </div>  
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="map.html">Map</a>
+                </li>
+                <li>
+                    <a href="event.html">Featured Event</a>
+                </li>
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>	
+
+    
+
+<div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="prof-body">
+        <div class="person-top">
+            <img class="person-icon" src="img/huie.jpg">
+            <div class="blurb">
+                <p style="font-size: 140%; font-weight: bold">Daniel Huie</p>
+                <p style="font-size: 90%">NEW YORK, NEW YORK<br>
+                    <br>
+                    He is a student at the University of Washington and loves to cook food during his free time. He likes to try cooking a variety of dishes. His favorite meal is dessert. 
+                    <br>
+                    <br>
+                    Daniel has hosted 6 meals. 
+                </p>
+            </div>
+        </div>
+
+
+
+       </div>            </div>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-9">
+                    <h1 class="page-header">Previous Meals</h1>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="img/recent_meals1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="img/recent_meals2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="img/recent_meals3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="img/recent_meals4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="img/recent_meals5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="img/recent_meals6.jpg" alt="">
+                    </a>
+                </div>
+            
+            </div>
+
+            <hr>
+
+
+
+
+
+            <div class="col-md-12">  <!-- start of comments section -->
+                <div class="well" id="form">
+                    <textarea id="review-input" type="text" placeholder="Leave a review" maxlength="750"></textarea>
+                    <div class="text-right">
+                        <a class="btn btn-success" onclick="submitReview()">Leave a Review</a>
+                    </div>
+
+                    <hr>
+                    <div class = "comments" id="comments">
+                        <div class="row" id="row1">
+                            <div class="col-md-12">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                                Anonymous
+                                <span class="pull-right">10 days ago</span>
+                                <p>This product was great in terms of quality. I would definitely buy another!</p>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                                Anonymous
+                                <span class="pull-right">12 days ago</span>
+                                <p>I've alredy ordered another one!</p>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star-empty"></span>
+                                Kanye West
+                                <span class="pull-right">15 days ago</span>
+                                <p>Aye yo, dat pizza was DOPE! Daniel made me and my homies a nice meal. Even Beyonce was impressed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/reviews.js"></script>
+</html>
